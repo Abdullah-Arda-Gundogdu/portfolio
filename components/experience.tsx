@@ -6,7 +6,7 @@ import { Calendar } from "lucide-react"
 export default function Experience() {
   const experiences = [
     {
-      title: "AI Engineer",
+      title: "Long Term Intern",
       company: "SimBT",
       period: "Present",
       location: "Ankara, Turkey",
