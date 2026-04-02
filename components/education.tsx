@@ -9,7 +9,7 @@ export default function Education() {
       title: "B.Sc. Artificial Intelligence Engineering",
       company: "TOBB University of Economics and Technology",
       period: "2023 - Present",
-      location: "Ankara, Turkey",
+      location: "Ankara, Türkiye",
       highlights: [
         "Specializing in Machine Learning, Deep Learning, and Natural Language Processing",
         "Coursework in AI Systems, Neural Networks, and Knowledge Representation",
