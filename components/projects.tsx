@@ -6,38 +6,47 @@ import { Calendar } from "lucide-react"
 export default function Projects() {
   const projects = [
     {
-      title: "Independent AI Project - Karien",
-      company: "Personal Project",
+      title: "Karien - AI Desktop Companion",
+      company: "Independent Project",
       period: "2024 - Present",
-      location: "Remote",
       highlights: [
-        "Built an AI OS interface using fine-tuned Llama 3 70B with Groq inference",
-        "Implemented screen vision capabilities for context-aware assistance",
-        "Integrated Model Context Protocol for extensible agent functionality",
-        "Connected with external services like Google Calendar and Gmail",
+        "Developed a 3-tier cognitive architecture (Router, Worker, Synthesizer) with local LLM support via Ollama",
+        "Integrated wake-word detection, live STT, and high-quality TTS for natural voice interactions",
+        "Implemented an expressive animated avatar with dynamic moods based on real-time LLM sentiment",
+        "Built a modular tool system using Model Context Protocol (MCP) for system control and app integrations",
       ],
     },
     {
-      title: "Gen AI Research & Development",
-      company: "Self-Directed Learning",
-      period: "2023 - Present",
-      location: "Remote",
+      title: "AI Customer Representative",
+      company: "B2B Project",
+      period: "2024 - 2025",
       highlights: [
-        "Deep expertise in RAG systems and Knowledge Graph integration",
-        "Implemented FiD and KG-FiD architectures for enhanced retrieval",
-        "Built production-ready applications with LangChain and LlamaIndex",
-        "Prompt engineering and LLM fine-tuning experiments",
+        "Architected an end-to-end conversational AI for an Azerbaijani bank to significantly reduce human workload",
+        "Designed a secure STT → PII Filter → LLM → PII Filter (Decode) → TTS pipeline",
+        "Developed a deeply human-like persona to ensure high user adoption and satisfaction",
+        "Integrated a RAG (Retrieval-Augmented Generation) system to accurately assist with customer-specific banking information",
       ],
     },
     {
-      title: "Open Source Contributions",
-      company: "GitHub Community",
-      period: "2023 - Present",
-      location: "Remote",
+      title: "Synthetic Personality Analysis with NLP",
+      company: "BIL 470 Senior Project",
+      period: "2024",
       highlights: [
-        "Contributing to AI/ML open source projects",
-        "Sharing knowledge through code examples and documentation",
-        "Collaborating with global developer community",
+        "Built an NLP pipeline to predict hobbies from persona descriptions using Qwen 3 embedding models",
+        "Reduced dataset noise using Normalized Compression Distance (NCD) and Agglomerative Clustering",
+        "Engineered prediction systems using Matrix k-NN and Cross-Encoder re-ranking for improved precision",
+        "Trained a customized Deep Learning projection network bridging persona and hobby vector spaces",
+      ],
+    },
+    {
+      title: "TTS Training Data Generator",
+      company: "Independent Project",
+      period: "2024",
+      highlights: [
+        "Developed a full-stack web app (React/Flask) for generating and managing TTS training datasets",
+        "Integrated dual LLMs (OpenAI/Ollama) to autonomously generate varied, context-rich training sentences",
+        "Implemented a unified TTS engine via Google Cloud to synthesize high-quality audio",
+        "Created an interface for direct browser-based model fine-tuning of Coqui XTTS v2 with real-time logs",
       ],
     },
   ]
@@ -109,7 +118,6 @@ export default function Projects() {
                   </div>
                 </div>
 
-                <p className="text-sm text-muted-foreground mb-4">{project.location}</p>
 
                 <ul className="space-y-2">
                   {project.highlights.map((highlight, i) => (
