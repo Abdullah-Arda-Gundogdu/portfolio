@@ -114,7 +114,7 @@ export default function Hero() {
 
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <motion.a
-              href="#process"
+              href="#projects"
               className="inline-flex items-center justify-center gap-2 px-8 py-3 bg-gradient-to-r from-primary to-accent text-primary-foreground rounded-lg font-medium hover:shadow-lg transition-all focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
               whileHover={prefersReducedMotion ? {} : { scale: 1.05, y: -2 }}
               whileTap={prefersReducedMotion ? {} : { scale: 0.95 }}
@@ -123,8 +123,8 @@ export default function Hero() {
               <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </motion.a>
             <motion.a
-              href="/api/resume"
-              download="Arda_Gundogdu_Resume.txt"
+              href="/abdullah_arda_gundogdu_CV.pdf"
+              download="abdullah_arda_gundogdu_CV.pdf"
               className="inline-flex items-center justify-center gap-2 px-8 py-3 border-2 border-primary/50 rounded-lg font-medium hover:bg-primary/10 hover:border-primary transition-all focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
               whileHover={prefersReducedMotion ? {} : { scale: 1.05, y: -2 }}
               whileTap={prefersReducedMotion ? {} : { scale: 0.95 }}
